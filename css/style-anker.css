@@ -1,0 +1,9 @@
+/* Это стили для ссылок */
+.operation-sistems a,
+.feature-item a,
+.portrait a,
+.social-btn,
+.footer-nav a {
+    display: block;
+    text-decoration: none;
+}

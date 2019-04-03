@@ -1,0 +1,15 @@
+/* Стиль для body */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: #fff;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
