@@ -13,3 +13,12 @@ body {
     max-width: 1600px;
     margin: 0 auto;
 }
+
+.main-nav ul a,
+.feature-item a,
+.portrait a,
+.social-btn,
+.footer-nav a {
+    display: block;
+    text-decoration: none;
+}
