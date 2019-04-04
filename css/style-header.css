@@ -25,19 +25,26 @@ header {
 }
 
 .operation-sistems{
+    background-color:#38251b;
     opacity: .7 ;
+}
+
+.operation-sistems:hover{
+    background:#2ecc71;
+    opacity: 1;
 }
 
 /* элемент li - класс длф фона*/
 .apple{
-    background:#38251b url('../images/sprits/spritesheet.png')no-repeat -85px -17px;
+    background: url('../images/sprits/spritesheet.png')no-repeat -85px -17px;
 }
 
 .android{
-    background:#38251b url('../images/sprits/spritesheet.png')no-repeat -12px -14px;
+    background: url('../images/sprits/spritesheet.png')no-repeat -12px -14px;
 }
 
 .windows{
-    background:#38251b url('../images/sprits/spritesheet.png')no-repeat -158px -14px;
+    background: url('../images/sprits/spritesheet.png')no-repeat -158px -14px;
 }
+
 
