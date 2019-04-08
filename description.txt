@@ -1,0 +1,29 @@
+﻿1. Глобальный стиль для body.
+
+2. Глобальный стиль для текста :
+
+	а) font-family;
+  	b) font-size;
+	c) line-height;
+	d) color;
+3. Скачать и подключить шрифты:
+
+	@font-face
+
+4. Стили для ссылок:
+
+	a)text-decoration;
+	b):hover- если есть в макете
+	c):active- если есть в макете
+
+5. Стили для списков:
+
+	a)list-style: none;
+    	b)padding: 0;
+	c)margin: 0;
+
+6.  Фоновые изображения и иконки спрайтами.
+
+	background-size: cover; - не забывать !
+
+7. Сетка.

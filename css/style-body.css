@@ -1,4 +1,16 @@
 /* Стиль для body */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -8,17 +20,43 @@ body {
     color: #404040;
     background-color: #fff;
 }
+
+/* Контейнер для всей страницы */
 .wrapper{
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
 }
 
-.main-nav ul a,
-.feature-item a,
-.portrait a,
+.container{
+    width: 1190px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+/* Общие стили для ссылок на странице */
+
+.flex a,
 .social-btn,
-.footer-nav a {
+.footer-nav a,
+.main-nav ul a,
+.feature-item a{
     display: block;
     text-decoration: none;
+}
+
+/* Общие стили для списков на странице */
+.main-nav ul,
+.features ul,
+.footer-nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Общие стили для элементов списков li на странице */
+.operation-sistems,
+.footer-nav li{
+    display: inline-block;
+    vertical-align: middle;
 }
